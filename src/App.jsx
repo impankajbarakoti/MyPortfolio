@@ -7,11 +7,12 @@ import Header from './Components/Header'
 import About from './Components/About'
 import Skills from './Components/Skills'
 import Experience from './Components/Experience'
-import Contact from './Components/contact'
+
 import Hero from './Components/Hero'
 import Projects from './Components/Projects';
 import FooterWithScrollTop from './Components/FooterWithScrollTop';
 import WhyChooseMe from './Components/WhyChooseMe';
+import ContactUs from './Components/ContactUs';
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
       <Projects />
       <WhyChooseMe />
       <Experience />
-      <Contact />
+      <ContactUs/>
 
       <FooterWithScrollTop />
     </div>

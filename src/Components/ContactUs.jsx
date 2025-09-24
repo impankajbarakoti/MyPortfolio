@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
 
-const Contact = () => {
+const ContactUs = () => {
   const contactInfo = [
     {
       icon: Mail,
@@ -182,9 +182,7 @@ const Contact = () => {
               })}
             </div>
 
-            <div className="text-center mt-12">
-             
-            </div>
+            <div className="text-center mt-12"></div>
           </div>
         </div>
       </div>
@@ -192,4 +190,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactUs;
